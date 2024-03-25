@@ -12,8 +12,8 @@ import { useAuthContext } from "./context/authContext";
 function App() {
   const { authUser, loading } = useAuthContext();
 
-  if(loading) return null
-  
+  if (loading) return null;
+
   return (
     <div className="flex">
       <Sidebar />
